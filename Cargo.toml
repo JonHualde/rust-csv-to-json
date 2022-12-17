@@ -1,0 +1,9 @@
+[package]
+name = "csv-to-json"
+version = "0.1.0"
+authors = ["Jon Hualde"]
+
+[dependencies]
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
